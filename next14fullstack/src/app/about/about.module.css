@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3673fd;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+.boxes {
+    display: flex;
+    gap: 46px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.boxNumber {
+    font-size: 20px;
+    font-weight: bold;
+    color:#3673fd;
+}
+
+.boxDesc {
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+
+.imageContainer {
+    flex: 1;
+    position: relative;
+}
